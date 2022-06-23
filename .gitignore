@@ -109,3 +109,4 @@ package-lock.json
 
 
 html/download_zone/*
+!html/download_zone/.gitkeep
