@@ -1,0 +1,47 @@
+.topBar{
+    display:flex;
+    height: 5em;
+    width:100%;
+    background-color: rgb(186, 186, 60);
+}
+
+@media only screen and (max-device-width: 768px) {
+    .gridContainer{
+        display: grid;
+        gap: 5px 5px;
+        background-color: #2196F3;
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) {
+    .gridContainer{
+        display: grid;
+        gap: 5px 5px;
+        grid-template-columns: auto auto auto;
+        background-color: #2196F3;
+        padding: 10px;
+    }
+}
+
+.gridElement{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    height: 10em;
+}
+
+.codeContainer{
+    padding-top:1em;
+    height: 5em;
+}
+
+.nameContainer{
+    padding-top:1em;
+}
+
+.cart{
+    height:2em;
+    position: absolute;
+    margin-top: 1.5em;
+    right: 2%;
+}

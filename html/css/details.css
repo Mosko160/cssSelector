@@ -1,0 +1,55 @@
+.topBar{
+    display:flex;
+    height: 5em;
+    width:100%;
+    background-color: rgb(186, 186, 60);
+}
+
+@media only screen and (max-device-width: 768px) {
+    .gridContainer{
+        display: grid;
+        gap: 5px 5px;
+        background-color: #2196F3;
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) {
+    .gridContainer{
+        display: grid;
+        gap: 5px 5px;
+        grid-template-columns: 33% 33% 33%;
+        background-color: #2196F3;
+        padding: 10px;
+    }
+}
+
+.gridElement{
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+}
+
+.codeDisplay{
+    height: 5em;
+}
+
+.codeContainer{
+    margin-top:2em;
+}
+
+.codeName{
+    background-color: #2196F3;
+}
+
+.code{
+    height: 10em;
+    white-space: pre-wrap;
+    overflow-y: auto;
+}
+
+.cart{
+    height:2em;
+    position: absolute;
+    margin-top: 1.5em;
+    right: 2%;
+}
