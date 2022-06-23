@@ -4,7 +4,6 @@ const url = require('url');
 const qs = require('querystring');
 const { ifError } = require('assert');
 const sql = require('sqlite3').verbose();
-var zipper = require('zip-local');
 const exec = require('child_process').exec;
 var crypto = require('crypto');
 const readline = require('readline').createInterface({
